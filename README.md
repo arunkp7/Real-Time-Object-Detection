@@ -27,7 +27,9 @@ This project implements a real-time object detection system using a pre-trained 
 git clone https://github.com/arunkp7/Real-Time-Object-Detection.git
 cd Real-Time-Object-Detection
 
-### 2. Create a virtual environment (optional but recommended)
+---
+
+## 2. Create a virtual environment (optional but recommended)
 
 ```bash
 python -m venv venv
