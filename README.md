@@ -29,6 +29,7 @@ cd Real-Time-Object-Detection
 
 ### 2. Create a virtual environment (optional but recommended)
 
+```bash
 python -m venv venv
 # Windows
 venv\Scripts\activate
@@ -38,10 +39,12 @@ source venv/bin/activate
 
 ### 3. Install dependencies
 
+```bash
 pip install opencv-python imutils numpy
 
 ### 4. Usage
 
+```bash
 Run the detection script with the required model files as arguments in the terminal:
 "python real_time_object_detection.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel"
 
